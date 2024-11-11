@@ -6,6 +6,7 @@ import basicon from './basicon.png'
    icon,
    logo,
    basicon
+   
 }
 export default Images;
 
