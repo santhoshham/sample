@@ -2,6 +2,7 @@ import React from 'react'
 import './Header.css'
 import headerImg from '../Assets/header_img.png';
 
+
 export default function Header(){
     return(
     <div className='header'  style={{ backgroundImage: `url(${headerImg})`, backgroundRepeat: 'no-repeat', }}>
