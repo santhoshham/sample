@@ -25,21 +25,21 @@ function Fooditem({ id, name, price, description, image, rating }) {
                 <img onClick={()=> setItemCount(prev=>prev+1)} src={<CiCirclePlus />} alt=''/>
                 </div>
         }*/}
-        {!itemCount ? (
+        {!CarItems[id] ? (
           <CiCirclePlus
             className="add-icon"
-            onClick={() => setItemCount((prev) => prev + 1)} size={30}
+            onClick={() =>addToCart(id)} size={30}
           />
         ) : (
           <div className="food-item-counter">
             <CiCircleMinus
               className="counter-icon"
-              onClick={() => setItemCount((prev) => Math.max(prev - 1, 0))} color='red' size={30}
+              onClick={() => removeFromCart(id)} color='red' size={30}
             />
-            <p>{itemCount}</p>
+            <p>{CarItems[id]}</p>
             <CiCirclePlus
               className="counter-icon"
-              onClick={() => setItemCount((prev) => prev + 1)} color='green' size={30}
+              onClick={() => addToCart(id)} color='green' size={30}
             />
           </div>
         )}

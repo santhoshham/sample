@@ -166,7 +166,7 @@ export const food_list = [
       image: food_9,
       price: 4,
       description: "Rich chocolate cake with creamy frosting.",
-      category: "Desserts",
+      category: "Deserts",
       rating: 4.8,
     },
     {
@@ -175,7 +175,7 @@ export const food_list = [
       image: food_10,
       price: 6,
       description: "Classic cheesecake with a graham cracker crust.",
-      category: "Desserts",
+      category: "Deserts",
       rating: 4.9,
     },
     {
@@ -184,7 +184,7 @@ export const food_list = [
       image: food_11,
       price: 3,
       description: "Decadent brownie with a rich chocolate flavor.",
-      category: "Desserts",
+      category: "Deserts",
       rating: 4.4,
     },
     {
@@ -193,7 +193,7 @@ export const food_list = [
       image: food_12,
       price: 6,
       description: "A delightful tart with seasonal fruits and custard.",
-      category: "Desserts",
+      category: "Deserts",
       rating: 4.6,
     },
     {
@@ -202,7 +202,7 @@ export const food_list = [
       image: food_13,
       price: 8,
       description: "Classic club sandwich with turkey, bacon, lettuce, and tomato.",
-      category: "Sandwiches",
+      category: "Sandwich",
       rating: 4.5,
     },
     {
@@ -211,7 +211,7 @@ export const food_list = [
       image: food_14,
       price: 7,
       description: "Bacon, lettuce, and tomato on toasted bread.",
-      category: "Sandwiches",
+      category: "Sandwich",
       rating: 4.2,
     },
     {
@@ -220,7 +220,7 @@ export const food_list = [
       image: food_15,
       price: 5,
       description: "A warm, gooey grilled cheese sandwich.",
-      category: "Sandwiches",
+      category: "Sandwich",
       rating: 4.0,
     },
     {
@@ -229,7 +229,7 @@ export const food_list = [
       image: food_16,
       price: 6,
       description: "Egg salad on fresh bread, seasoned with herbs.",
-      category: "Sandwiches",
+      category: "Sandwich",
       rating: 4.3,
     },
     {
