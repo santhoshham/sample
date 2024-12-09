@@ -56,13 +56,13 @@
   }
   
   .login-popup-title svg:hover {
-    transform: rotate(90deg); /* Adds rotation on hover */
+    transform: rotate(90deg); 
   }
   
   .login-popup-inputs {
     display: flex;
     flex-direction: column;
-    gap: 1rem; /* Adds space between input fields */
+    gap: 1rem; 
   }
   
   .login-popup-inputs input {
@@ -85,7 +85,7 @@
   .Login-popup button {
     width: 100%;
     padding: 0.9rem;
-    background: #007bff;
+    background:tomato;
     color: #fff;
     border: none;
     border-radius: 10px;
@@ -96,7 +96,7 @@
   }
   
   .Login-popup button:hover {
-    background: #0056b3;
+    background:tomato;
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 123, 255, 0.4);
   }
